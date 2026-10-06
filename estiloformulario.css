@@ -1,0 +1,45 @@
+
+body {
+  background-color: #fdfbf2;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #0c4703;
+}
+
+label {
+  color: #2ece3b;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+  background-color: white;
+  border: 2px solid #a8f9ad;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+input:focus {
+  border-color: #db8d27;
+  outline: none;
+}
+
+button {
+  background-color: #27dbbd;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #419d17;
+}
+
+hr {
+  border: 1px solid #a8f8f9;
+}
